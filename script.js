@@ -33,9 +33,10 @@ function setBlack(element) {
 
 const gridSection = document.querySelector('.grid-section');
 const form = document.querySelector(".generate-section form");
+const input = document.getElementById("input-grid-size");
+
 form.addEventListener('submit', (e) => {
     e.preventDefault();
-    let input = document.getElementById("input-grid-size");
     genGrid(input.max- input.value + 1);
 });
 
