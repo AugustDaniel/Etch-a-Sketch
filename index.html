@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Etch a Sketch</title>
+</head>
+<body class="flex-column flex-centered">
+    <header class="width-max flex-column flex-centered bg-primary">
+        <h1>Etch a Sketch</h1>
+    </header>
+    <main class="width-max flex-column bg-secondary">
+            <section class="generate-section container-lg flex-column flex-centered">
+                <h2>Generate new grid</h2>
+                <form action="#" class="flex-column flex-centered">
+                    <div class="form-group">
+                        <label for="number">Pencil:</label>
+                        <input id="input-grid-size" type="range" min="1" max="100" step="1" required>
+                    </div>
+                    <div class="form-group">
+                        <input class="btn" type="submit" value="Generate">
+                    </div>
+                </form>
+            </section>
+        <section class="grid-section container-xl flex-column flex-centered bg-white">
+        </section>
+    </main>
+    <footer class="width-max flex-column flex-centered bg-primary">
+        <p>Created by August Daniel. <a href="https://github.com/AugustDaniel">Github</a></p>
+    </footer>
+</body>
+</html>
