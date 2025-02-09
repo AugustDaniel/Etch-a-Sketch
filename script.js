@@ -40,4 +40,4 @@ form.addEventListener('submit', (e) => {
     genGrid(input.max- input.value + 1);
 });
 
-genGrid(50);
+genGrid(input.value);
